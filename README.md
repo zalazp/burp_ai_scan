@@ -55,5 +55,5 @@ WAF绕过：
 5.执行python burp_ai_scan.py -r 1.txt
 
 
-##################图文教程:
-https://mp.weixin.qq.com/s?__biz=Mzk3NTU2MjYyNg==&tempkey=MTM1NF9rWjVFekVjU1NtOWphZ1NmeTR5SDVxSnVtVC1hbUVBTnVDNW1HS3htTFNBWXJEYkx1QTJQMWh6a3liQnBFaXktaEFOVEJXWThUSmhuVmo1LVBFQUp0RWtZNndfdk1ObG1tR2IzcDhjbEMtMmtBOUtCWGFkcXdSTWdaSnQ0bmZwTHEzRDV6T0ZMS0dwVXpkOHIyLVJUZXA5TTJ5Q2had1NWMTY3RDRBfn4%3D&chksm=450e238673c1e43860540e7c602ac76a81a691f658fd1b1921c3c6ed7442673095fb261c1f50&mpshare=1&scene=1&srcid=1231MmNNbfj16TMnqiO9bGOm&sharer_shareinfo=2b4c525b98c67cd63ad2ee3c0212b190&sharer_shareinfo_first=2b4c525b98c67cd63ad2ee3c0212b190#wechat_redirect
+##################图文教程:公众号-小安全sec
+https://mp.weixin.qq.com/s/eNZsLPiSuYvhgBeIXm9LLw
