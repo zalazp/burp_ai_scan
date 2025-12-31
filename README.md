@@ -2,6 +2,9 @@
 它通过分析 HTTP 请求/响应数据，结合预训练的 AI 模型，识别传统规则无法发现的复杂安全漏洞（如逻辑漏洞、业务层攻击面等）
 
 
+##################图文教程:公众号-小安全sec
+https://mp.weixin.qq.com/s/eNZsLPiSuYvhgBeIXm9LLw
+
 ######下载
 1.右方 Releases处,下载Export.jar和burp_ai_scan文件夹压缩包,并解压
 
