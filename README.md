@@ -3,7 +3,7 @@
 
 
 ######下载
-1.下载Export.jar和burp_ai_scan文件夹
+1.右方 Releases处,下载Export.jar和burp_ai_scan文件夹压缩包,并解压
 
 2.将 阿里云百炼的API Key 加入 系统环境变量(参考阿里云百炼网站文档详情)
 
