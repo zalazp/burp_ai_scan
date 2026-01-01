@@ -8,6 +8,7 @@
 1.右方 Releases处,下载Export.jar和burp_ai_scan文件夹压缩包,并解压
 
 2.将 阿里云百炼的API Key 加入 系统环境变量(参考阿里云百炼网站文档详情)
+<img src="https://mmbiz.qpic.cn/sz_mmbiz_png/CZUj03ETIMh1GWNSB5cRRic5V7Uh6pzJ7M9iat3OESBMcCvXX7z7BnM9nfQpibrOdZ7CHzD9uia3o5LC3oUsIZGLog/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0">
 
 3.进入burp_ai_scan文件夹 执行
 ```
@@ -23,14 +24,16 @@ pip install -r requirements.txt
 
 1.将  Export.jar手动导入 burp extensions
 
-2.该插件记录 burp 所有流量包,搜索可能含有漏洞的数据包,点击复制选中框
+2.该插件记录 burp 所有流量包,搜索可能含有漏洞的数据包并选中,点击复制选中框
+<img src="https://mmbiz.qpic.cn/sz_mmbiz_png/CZUj03ETIMh1GWNSB5cRRic5V7Uh6pzJ7akhg8ko1Sa1E4GTV05MOp05M2Y52WXzibIxofSezlibeBsRnCyyazJkA/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=1">
 
 3.将数据粘贴至 burp_AI_scan文件夹的1.txt
-
+<img src="https://mmbiz.qpic.cn/sz_mmbiz_png/CZUj03ETIMh1GWNSB5cRRic5V7Uh6pzJ7b06vowHaIUT64ibITfkNSW4ghYrOXFgy4Fz0ZLlQawtIax2oklAv9Xg/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=2">
 4.执行 
 ```
 python burp_ai_scan.py -r 1.txt
 ```
+<img src="https://mmbiz.qpic.cn/sz_mmbiz_png/CZUj03ETIMh1GWNSB5cRRic5V7Uh6pzJ7yvdSG7nHXjzGS6pPBZsMO4MtRLVicNEibGX9tx3tvCUuianeALpQjIlJA/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=3">
 
 
 5.输出
@@ -48,8 +51,10 @@ WAF绕过：
 ## burp_ai_scan与TsojanScan联合使用方式:
 
 1.将可以数据包发送给 TsojanScan 进一步测试
+<img src="https://mmbiz.qpic.cn/sz_mmbiz_png/CZUj03ETIMh1GWNSB5cRRic5V7Uh6pzJ7ibvGXGa5QgRkcRrfmuic8ibibplEW6vFsSw5M06UyClf9Qb7qzia3ibib7ibhA/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=4">
 
 2.Export插件 获取到TsojanScan的数据(也可搜索url)
+<img src="https://mmbiz.qpic.cn/sz_mmbiz_png/CZUj03ETIMh1GWNSB5cRRic5V7Uh6pzJ7KdCZg57v0N1NLnJoCicO9iavPJJqbsibWqCqZbCMorj7hianFhwxufvQiaQ/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=5">
 
 3.选择要复制的请求包和返回包,点击复制选中项
 
