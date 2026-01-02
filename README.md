@@ -16,7 +16,7 @@ pip install -r requirements.txt
 ```
 
 
-注:Export.jar是 jdk11及以上可以使用 burp_ai_scan是Python 3.5及以上可以使用
+注:Export.jar是 jdk17及以上可以使用 burp_ai_scan是Python 3.5及以上可以使用
 
 
 
