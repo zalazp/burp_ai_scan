@@ -1,4 +1,4 @@
-<img width="1920" height="1363" alt="image" src="https://github.com/user-attachments/assets/d74a9d9c-6258-472d-8ee8-a0e78ca1ee24" /># burp_ai_scan
+# burp_ai_scan
 它通过分析 HTTP 请求/响应数据，结合预训练的 AI 模型，识别传统规则无法发现的复杂安全漏洞（如逻辑漏洞、业务层攻击面等）
 
 
