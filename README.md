@@ -1,4 +1,4 @@
-# burp_ai_scan
+<img width="1920" height="1363" alt="image" src="https://github.com/user-attachments/assets/d74a9d9c-6258-472d-8ee8-a0e78ca1ee24" /># burp_ai_scan
 它通过分析 HTTP 请求/响应数据，结合预训练的 AI 模型，识别传统规则无法发现的复杂安全漏洞（如逻辑漏洞、业务层攻击面等）
 
 
@@ -48,7 +48,7 @@ WAF绕过：
 未检测出WAF
 ```
 
-## burp_ai_scan与TsojanScan联合使用方式:
+## Export.jar与TsojanScan联合使用方式:
 
 1.将可以数据包发送给 TsojanScan 进一步测试
 <img src="https://mmbiz.qpic.cn/sz_mmbiz_png/CZUj03ETIMh1GWNSB5cRRic5V7Uh6pzJ7ibvGXGa5QgRkcRrfmuic8ibibplEW6vFsSw5M06UyClf9Qb7qzia3ibib7ibhA/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=4">
@@ -61,6 +61,22 @@ WAF绕过：
 4.将数据粘贴至burp_ai_scan文件夹的1.txt 
 
 5.执行python burp_ai_scan.py -r 1.txt
+
+
+## Export的5大功能
+1.日志:记录来自burp 所有模块流量的数据包
+<img src="./1.png">
+
+2.复制:可将 多个数据包 一起复制,格式为 请求包1:... 返回包1:... 请求包2:... 返回包2:.. 适合AI分析数据包,可用于个人AI研究的prompt
+<img src=./2.png>
+<img src=./3.png>
+
+3.排序:可将 Export.jar 界面的列选项 排序,可排序后查看已选中的复选框
+<img src=2.png>
+
+4.搜索功能:搜索关键字
+<img src=4.png>
+
 
 
 ## 原创:公众号-小安全sec
